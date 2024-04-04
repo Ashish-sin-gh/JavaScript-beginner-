@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    font-family: Poppins, sans-serif, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#insert{                  /* div */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+}
+
+.key{
+    border: 3px solid black;
+    width: 33.3333%;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    /* min-width: 150px; */
+}
+
